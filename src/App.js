@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [location,setLocation]=useState('')
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=693decabe6c827a661fcb1bc0060fda6`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid={API Key}`
  
   const [data,setData]=useState({})
 
